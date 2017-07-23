@@ -1,0 +1,22 @@
+h3 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #a8a8a8;
+  opacity: .7;
+  text-shadow: 1px 1px 0 white;
+}
+
+body {
+ 		background-color: #011b4a;
+ 		background-size: cover;
+ }
+
+ .jumbotron	{
+ 		background-color: #011b4a;
+ 		background-size: cover;
+ }
+
+ p	{
+	color: #fff;
+
+ }
