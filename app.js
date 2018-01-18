@@ -17,7 +17,7 @@ $(function(){
 
   	//Get weather information
 
-  	$.getJSON('http://api.openweathermap.org/data/2.5/weather?units=metric&lat=' + loc[0] + '&lon=' + loc[1] + '&APPID=' + api_key, function(wd){
+  	$.getJSON('https://api.openweathermap.org/data/2.5/weather?units=metric&lat=' + loc[0] + '&lon=' + loc[1] + '&APPID=' + api_key, function(wd){
 
   		var currentWeather = wd.weather[0].description;
   		var currentLocation = wd.name;
@@ -36,7 +36,7 @@ $(function(){
   	$('#wind').html(currentWind + " mps ");
 
 
-  	var iconSrc = "http://openweathermap.org/img/w/" + currentIcon + ".png";
+  	var iconSrc = "https://openweathermap.org/img/w/" + currentIcon + ".png";
 
   	$('#weather').prepend('<img src =' + iconSrc + '>');
 
